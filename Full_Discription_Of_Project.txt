@@ -15,3 +15,14 @@ Section B (Implementation):
 1)	Classification: Use both models from section A and predict whether adult income with a given feature (all feature) has an income which is bigger than 50K$ in year, or not.
 2)	Regression:  Use both model from section A and predict adult education years with the following features: age, workclass, fnlwgt, martial-status, relationship, race, sex, capital-gain, capital-loss, hours-per-week, native-country. 
 3)	Multiclassification: Use both model from section A and predict adult education status with the following features: age, workclass, fnlwgt, martial-status, relationship, race, sex, capital-gain, capital-loss, hours-per-week, native-country.
+
+Scores:
+1) Classification:
+a. Decision Tree: 0.86188 Accuracy
+b. Random Forest: 0.8516 Accuracy
+2) Multiclassification: 
+a. Decision Tree: 0.3626 Accuracy
+b. Random Forest: 0.3616 Accuracy
+3) Regression:
+a. Decision Tree: 5.5845 MSE
+b. Random Forest: 5.61107 MSE
